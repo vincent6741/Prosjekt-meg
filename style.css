@@ -1,0 +1,193 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* CSS RESET */
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-weight: normal;
+ }
+
+
+
+
+ body {
+     font-size: 16px;
+     font-family: "Roboto"
+ }
+
+ .Body-index{
+    background-color: gray;
+ }
+
+
+
+ ol,
+ ul {
+     list-style: none;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     
+ }
+
+ /* CSS RESET */
+
+ .nav {
+     background-color: cadetblue;
+     padding: 10px;
+ }
+
+ .nav a {
+
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     padding: 10px;
+
+ }
+
+ .nav>ul {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .nav a:hover {
+     background-color: black;
+     transition: 500ms;
+     border-radius: 10px;
+ }
+
+ main h1 {
+     text-align: center;
+     padding: 10px;
+
+ }
+
+ .grid-container {
+     display: grid;
+     grid-template-columns: 3fr 2fr;
+     min-height: 400px;
+
+ }
+
+ .grid-container img{
+    aspect-ratio: 1/1;
+
+ }
+
+ footer {
+     text-align: center;
+     font-size: 15px;
+ }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.flex-container > *{
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    
+}
+
+
+.timeplan{
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+
+.timeplan td,
+.timeplan th{
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.Kjemi{
+    background-color: greenyellow;
+}
+
+.Matte{
+    background-color: turquoise;
+}
+
+.Tysk{
+    background-color: palevioletred;
+}
+
+.Fysikk{
+    background-color: red;
+}
+
+.IT{
+    background-color: green;
+
+}
+
+.Gym{
+    background-color: blue;
+}
+
+.Historie{
+    background-color: yellow;
+}
+
+.Norsk{
+    background-color: chocolate;
+}
+
+.Klassens-time{
+    background-color: crimson;
+}
+
+
+.box1{
+    background-color: brown;
+}
+
+.int-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    background-color: antiquewhite;
+    gap:10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    
+
+}
+
+.int{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px;
+    border: 5px solid black;
+    
+    
+}
+
+.int-container img{
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
